@@ -7,12 +7,16 @@ const Header = () => {
                 <a href='/home'>
                     <img className="ml-2" src='/images/home-logo.svg' alt='home-logo'/>
                 </a>
-            
-            <div className="">
+            </div>
+            <div className="search grow relative">
                 <input
                     type="text"
                     placeholder="Search"
+                    className="bg-sky-100 border border-sky-100 hover:border-sky-400 rounded-md leading-7 text-center w-56 pl-2 pr-10 font-bold"
                 />
+            
+            <div className="searchIcon flex items-center w-10 absolute left-2 z-10 top-2 ">
+                <img src='/images/search-icon.svg' alt='search-icon'/>
             </div>
             </div>
         </div>
